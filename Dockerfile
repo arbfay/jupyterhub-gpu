@@ -1,13 +1,13 @@
 FROM ubuntu:bionic
 
-LABEL org.opencontainers.image.title="Mail Sender" \
-      org.opencontainers.image.description="A micro-service to let your other services send emails hassle-free" \
+LABEL org.opencontainers.image.title="Jupyterhub with Nvidia GPUs" \
+      org.opencontainers.image.description="A jupyterhub server with Nvidia GPUs attached" \
       org.opencontainers.image.version="0.1.0" \
-      org.opencontainers.image.source="github.com/arbfay/mailsender.git" \
-      org.opencontainers.image.url="github.com/arbfay/mailsender" \
-      org.opencontainers.image.created="2019-11-24T12:00Z" \
+      org.opencontainers.image.source="github.com/arbfay/jupyterhub-gpu.git" \
+      org.opencontainers.image.url="github.com/arbfay/jupyterhub-gpu" \
+      org.opencontainers.image.created="2019-11-27T00:00Z" \
       org.opencontainers.image.authors="Fayçal Arbai <github.com/arbfay>" \
-      org.opencontainers.image.licenses="Apache-2.0"
+      org.opencontainers.image.licenses="MIT"
 
 USER root
 
