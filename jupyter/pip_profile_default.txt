@@ -6,3 +6,6 @@ impyla
 krbcontext==0.10.0
 plotly
 chart-studio==1.0.0
+xgboost
+dask
+distributed
